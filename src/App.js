@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Cats from "./cat";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {Cats.map((cat) => (
+        <div class="card">
+          <img class="card-img-top" src={cat.img} alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">{cat.breed}</h5>
+            <h6 class="card-subtitle">
+              {cat.color} {cat.sex} {cat.age}
+            </h6>
+            <p class="card-text">{cat.desc}</p>
+          </div>
+        </div>
+      ))}
     </div>
   );
 }
