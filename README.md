@@ -1,22 +1,17 @@
-#Cat Adoption App
-This is a simple web app that displays a list of cats available for adoption. The app displays each cat as a card containing information such as breed, color, sex, age, and a short description.
+#[Cat Adoption App] (https://catcards.vercel.app/)
+* This is a simple web app that displays a list of cats available for adoption. The app displays each cat as a card containing information such as breed, color, sex, age, and a short description.
 
 #Installation
 To run the app, first clone the repository to your local machine:
-
-#bash
 Copy code
 git clone https://github.com/your-username/cat-adoption-app.git
 Then, navigate to the root directory of the project and install the required dependencies using npm:
-
-#bash
 Copy code
 cd cat-adoption-app
 npm install
 Usage
 To start the app, run the following command in the terminal:
-
-#sql
+sql
 Copy code
 npm start
 This will start the development server and open the app in your default browser. You should see a list of cats displayed as cards on the page.
