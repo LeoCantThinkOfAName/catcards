@@ -19,3 +19,7 @@
 .cat-card-body {
     @apply p-5;
 }
+
+.cat-card-title {
+    @apply text-lg font-bold mb-2;
+}

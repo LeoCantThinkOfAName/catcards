@@ -22,8 +22,8 @@ export const CatCard = ({ cat }) => {
           <img className="cat-card-img" src={cat.img} alt={cat.breed} />
         </div>
         <div className="cat-card-body">
-          <h5 className="card-title">{cat.breed}</h5>
-          <h6 className="card-subtitle">
+          <h5 className="cat-card-title">{cat.breed}</h5>
+          <h6 className="cat-card-subtitle">
             {cat.color} {cat.sex} {cat.age}
           </h6>
           <p className="cat-card-text">{cat.desc}</p>
