@@ -1,5 +1,3 @@
-import "./App.css";
-
 import { CatCard } from "./components/CatCard";
 import Cats from "./constants/cat";
 
