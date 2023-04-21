@@ -1,22 +1,22 @@
 import "./App.css";
 
-import Cats from "./cat";
+import { CatCard } from "./components/CatCard";
+import Cats from "./constants/cat";
 
 function App() {
   return (
     <div className="App">
-      {Cats.map((cat) => (
-        <div className="card" key={cat.breed}>
-          <img className="card-img-top" src={cat.img} alt="Card image cap" />
-          <div className="card-body">
-            <h5 className="card-title">{cat.breed}</h5>
-            <h6 className="card-subtitle">
-              {cat.color} {cat.sex} {cat.age}
-            </h6>
-            <p className="card-text">{cat.desc}</p>
-          </div>
-        </div>
-      ))}
+      <header className="text-center p-4">
+        <h1 className="text-4xl font-bold">Stray cat rescue</h1>
+        <span className="text-xs text-gray-400">
+          (Although they're probably never step outside the house)
+        </span>
+      </header>
+      <div className="flex flex-wrap justify-center">
+        {Cats.map((cat) => (
+          <CatCard cat={cat} key={cat.breed} />
+        ))}
+      </div>
     </div>
   );
 }

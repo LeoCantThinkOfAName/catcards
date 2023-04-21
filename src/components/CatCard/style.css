@@ -1,0 +1,21 @@
+.cat-card {
+    @apply sm:w-96 m-3 border rounded-md w-full shadow-lg overflow-hidden;
+    font-family: "Over the Rainbow", cursive;
+}
+
+.cat-card-img-wrapper {
+    @apply h-80 w-full overflow-hidden;
+}
+
+.cat-card-img {
+    @apply object-cover h-full w-full;
+    transition: all 0.5s ease-in-out;
+}
+
+.cat-card:hover .cat-card-img {
+    transform: scale(1.1);
+}
+
+.cat-card-body {
+    @apply p-5;
+}

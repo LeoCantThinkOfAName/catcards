@@ -1,10 +1,11 @@
 * {
-  box-sizing: border-box;
+  /* box-sizing: border-box;
   padding: 0px;
-  margin: 0px;
+  margin: 0px; */
 }
+
 .App {
-  text-align: center;
+  /* text-align: center;
   margin-top: 200px;
   width: 100%;
   display: flex;
@@ -13,33 +14,5 @@
   height: fit-content;
   align-items: center;
   justify-content: center;
-  text-align: left;
-}
-
-.card {
-  display: flex;
-  width: 25%;
-  margin: 10px;
-}
-
-.card-img-top {
-  height: 350px;
-}
-
-h5 {
-  font-family: "Over the Rainbow", cursive;
-  font-weight: 800;
-}
-
-h6 {
-  margin-top:5px;
-  font-family: "Over the Rainbow", cursive;
-  font-weight: 600;
-}
-
-p {
-  margin-top:15px;
-  font-family: "Over the Rainbow", cursive;
-  font-weight: 400;
-  width: 19rem;
+  text-align: left; */
 }
